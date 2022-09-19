@@ -1,14 +1,13 @@
 import * as React from 'react';
-import {useStore} from 'effector-react'
-import {$counter, decrement, increment} from "./store";
+import {useCounterState} from "./useCounterState";
 
 export const Counter = () => {
-  const counter = useStore($counter);
+  const {count, increment, decrement} = useCounterState();
 
   return (
     <div>
       <button onClick={decrement}>-</button>
-      <span>{counter}</span>
+      <span>{count}</span>
       <button onClick={increment}>+</button>
     </div>
   );

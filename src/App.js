@@ -1,6 +1,7 @@
 import {Unstated} from "./Unstated";
 import {Zustand} from "./Zustand";
 import {Effector} from "./Effector";
+import {Recoil} from "./Recoil";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <li>Zustand - https://github.com/pmndrs/zustand</li>
       </ul>
       <div>
+        <Recoil />
         <Effector/>
         <Unstated/>
         <Zustand/>
