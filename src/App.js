@@ -3,6 +3,7 @@ import {Zustand} from "./Zustand";
 import {Effector} from "./Effector";
 import {Recoil} from "./Recoil";
 import {Mobx} from "./Mobx";
+import {ReduxToolkit} from "./ReduxToolkit";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <li>Zustand - https://github.com/pmndrs/zustand</li>
       </ul>
       <div>
+        <ReduxToolkit />
         <Mobx />
         <Recoil />
         <Effector/>
