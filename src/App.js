@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import {Unstated} from "./Unstated";
+import {Zustand} from "./Zustand";
+import {Effector} from "./Effector";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <ul>
+        <li>Redux - https://github.com/reduxjs/redux</li>
+        <li>Redux Toolkit - https://github.com/reduxjs/redux-toolkit</li>
+        <li>Mobx - https://github.com/mobxjs/mobx</li>
+        <li>Recoil - https://github.com/facebookexperimental/Recoil</li>
+        <li>Effector - https://github.com/effector/effector</li>
+        <li>Unstated - https://github.com/jamiebuilds/unstated</li>
+        <li>Zustand - https://github.com/pmndrs/zustand</li>
+      </ul>
+      <div>
+        <Effector/>
+        <Unstated/>
+        <Zustand/>
+      </div>
     </div>
   );
 }
