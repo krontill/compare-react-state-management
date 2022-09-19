@@ -4,6 +4,7 @@ import {Effector} from "./Effector";
 import {Recoil} from "./Recoil";
 import {Mobx} from "./Mobx";
 import {ReduxToolkit} from "./ReduxToolkit";
+import {Redux} from "./Redux";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <li>Zustand - https://github.com/pmndrs/zustand</li>
       </ul>
       <div>
+        <Redux />
         <ReduxToolkit />
         <Mobx />
         <Recoil />
