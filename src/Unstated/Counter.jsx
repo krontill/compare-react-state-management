@@ -1,6 +1,6 @@
 import * as React from 'react';
 import {Subscribe} from 'unstated';
-import {CounterContainer} from "./state";
+import {CounterContainer} from "./CounterContainer";
 
 export const Counter = () => (
   <Subscribe to={[CounterContainer]}>
